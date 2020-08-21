@@ -1,0 +1,57 @@
+/* Links utili:
+https://www.w3schools.com/css/css_font.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts
+https://fonts.google.com
+*/
+
+
+/* Per selezionare la famiglia di caratteri utilizziamo font-family */
+/* font-family: family-name|generic-family|initial|inherit; */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Per scegliere lo stile dei caratteri possiamo usare font-style */
+/* font-style: normal|italic|oblique|initial|inherit; */
+
+/* Per scegliere lo spessore di un font utilizziamo font-weight */
+/* font-weight: normal|bold|bolder|lighter|number|initial|inherit; */
+
+.citazione {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Per scegliere la grandezza dei caratteri usiamo la proprietà font-size, usando come unità per i valori px, %, em */
+/* font-size: medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit; */
+
+#p1 {
+    font-size: 10px;
+}
+
+#p2 {
+    font-size: 130%;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* Possiamo personalizzare l'allineamente orizzontale del testo con text-align
+text-align: left|right|center|justify|initial|inherit; */
+
+/* Per personalizzare aspetti quali ad esempio la sottolineatura, usiamo la proprietÃ  text-decoration
+text-decoration: none|underline|overline|line-through|initial|inherit; */
+
+#h3s {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Possiamo variare l'altezza tra righe con line-height [ %, number, px ]
+line-height: normal|number|length|initial|inherit; */
+
+.coda {
+    line-height: 80%;
+}

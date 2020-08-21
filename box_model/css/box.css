@@ -1,0 +1,61 @@
+/*
+
+Il Box Model è formato da quattro sezioni:
+-contenuto
+-padding
+-bordo
+-margine
+
+Link Referenze w3schools.com:
+Box Model:              https://www.w3schools.com/Css/css_boxmodel.asp
+Elementi Block-Level:   https://www.w3schools.com/htmL/html_blocks.asp
+Vertical Align:         https://www.w3schools.com/CSSref/pr_pos_vertical-align.asp
+Inline Block:           https://www.w3schools.com/css/css_inline-block.asp
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    border: 5px solid green;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    border: 5px solid navy;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.mybox {
+    border: 5px dotted orange;
+    padding: 40px;
+    margin: 200px;
+}
+
+p {
+    border: 20px double purple;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.div1 {
+    display: inline-block;
+    height: 300px;
+    width: 50%;
+    border: 5px solid orange;
+}
+
+.div2 {
+    display: inline-block;
+    vertical-align: top;
+    height: 300px;
+    width: 50%;
+    border: 5px solid orange;
+    padding: 50px;
+}

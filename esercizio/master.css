@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+div {
+    display: inline-block;
+    width: 20%;
+    height: 830px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    border: 3px solid grey;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 730px;
+}
+
+h2:hover {
+    color: white;
+}
+
+#d1 {
+    background-color: #5BC0EB;
+}
+
+#d2 {
+    background-color: #FDE74C;
+}
+
+#d3 {
+    background-color: #9BC53D;
+}
+
+#d4 {
+    background-color: #E55934;
+}
+
+#d5 {
+    background-color: #FA7921;
+}

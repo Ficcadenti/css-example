@@ -1,0 +1,21 @@
+/* 
+elenco colori: 
+http://www.colors.commutercreative.com
+https://coolors.co
+*/
+
+h1 {
+    color: #0f43bc;
+}
+
+h2 {
+    color: #ffe900;
+}
+
+h4 {
+    color: rgba(100, 200, 0, 0.5);
+}
+
+p {
+    color: rgb(188, 11, 11);
+}

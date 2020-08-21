@@ -1,0 +1,37 @@
+/*
+proprietà background: https://www.w3schools.com/cssref/css3_pr_background.asp
+proprietà border: https://www.w3schools.com/cssref/pr_border.asp
+stili border: https://www.w3schools.com/cssref/pr_border-style.asp
+paletta utilizzata: https://coolors.co/f6511d-ffb400-00a6ed-7fb800-0d2c54
+*/
+
+
+/* body {
+    background: #FFB400;
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/25/22/25/colorful-1415969_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+body {
+    background: ivory;
+}
+
+div {
+    background-color: #FFB400;
+    border-width: 5px;
+    border-style: double;
+    border-color: #7FB800;
+}
+
+h1 {
+    background: #F6511D;
+}
+
+h2 {
+    border: 5px solid #00A6ED;
+}
+
+span {
+    background: #F6511D;
+}

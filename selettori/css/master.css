@@ -1,0 +1,72 @@
+/*
+Tipi di Selettore:
+
+element ==> selezione per tipo di tag html;
+id;     ==> selezione per id;
+class;  ==> selezione per una intera classe di elementi;
+*;      ==> seleziona tutti gli elementi della pagina;
+*/
+
+/* Selettori Universali */
+/* 
+* {
+    color: green;
+} */
+
+/* Selettori di tipo - Selettori per elemento*/
+
+body {
+    background: #A7DBD8;
+}
+
+div {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+p {
+    color: white;
+}
+
+/* Selettori di classe */
+
+.bordered {
+    border: #FA6900 3px solid;
+}
+
+.soleggiato {
+    color: black;
+    background-color: #FFF766;
+}
+
+.cut {
+    max-width: 50%;
+}
+
+/* Selettori d'identificatore */
+
+#unico {
+    text-decoration: underline;
+}
+
+#intermezzo {
+    height: 5px;
+    background-color: black;
+}
+
+/* Selettori gerarchici */
+
+li a {
+    color: green;
+}
+
+div > h1 {
+    color: purple;
+}
+
+h2 + p {
+    color: red;
+}
+
+li a[href="https://www.google.com"]{
+    color: grey;
+}
